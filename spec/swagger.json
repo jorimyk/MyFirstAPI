@@ -24,7 +24,7 @@
     "/inventory" : {
       "get" : {
         "tags" : [ "developers" ],
-        "summary" : "searches food item",
+        "summary" : "searches an garment",
         "operationId" : "searchInventory",
         "description" : "By passing in the appropriate options, you can search for\navailable inventory in the system\n",
         "produces" : [ "application/json" ],
@@ -67,7 +67,7 @@
       },
       "post" : {
         "tags" : [ "admins" ],
-        "summary" : "adds an food item",
+        "summary" : "adds an garment",
         "operationId" : "addInventory",
         "description" : "Adds an item to the system",
         "consumes" : [ "application/json" ],
